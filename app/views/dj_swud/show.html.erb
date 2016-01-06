@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+<style>
+
+body {height:100%;
+    width:100%;
+    background-image: url('/assets/stormdj.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    margin-left: 0 pixels ;
+}
+</style>
+</head>
+
+<body>
+<h1>DJ <%= @dj %></h1>
+
+<embed src="assets/Wookie.wav"
+       autostart="true"
+       hidden="true"
+       loop="false">
+     </embed>
+<%# person_one = JSON.parse person_one %>
+<%#= luke = person_one["results"][0]["name"]%>
+
+<!-- i just wanted to see if anything would print to the show page. i know it looks stupid -->
+<%= link_to "home", root_url %>
+</body>
+</html>
+
+<!-- <a href="http://randomword.setgetgo.com/get.php">http://randomword.setgetgo.com/get.php</a>
+ -->
+
+<!-- response = JSON.parse people
+response["results"][0]["name"] -->
